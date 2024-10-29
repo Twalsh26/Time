@@ -1,0 +1,16 @@
+/* Morning */
+body {
+    background: rgb(179,153,10);
+background: linear-gradient(0deg, rgba(179,153,10,1) 10%, rgba(60,30,135,1) 100%);
+}
+/* Afternoon */
+body {
+    background: rgb(0,245,255);
+background: radial-gradient(circle, rgba(0,245,255,1) 20%, rgba(0,83,255,1) 100%);
+}
+ 
+/* Night */
+body {
+    background: rgb(45,34,102);
+background: radial-gradient(circle, rgba(45,34,102,1) 0%, rgba(11,8,29,1) 80%);
+}
