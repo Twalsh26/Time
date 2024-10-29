@@ -3,7 +3,7 @@ let hour = d.getHours();
 hour = 2
 if(hour < 12){
     document.getElementById ("Greetings").innerText = "Good Morning";
-    document.getElementById ("Picture").src = "img/hand-drawn-sunburst-clip-art-free-png.webp";
+    document.getElementById ("Picture").src = "img/sun-rays-png-13.png";
     
 } else if (hour < 17){
     document.getElementById ("Greetings").innerText = "Good Afternoon";
