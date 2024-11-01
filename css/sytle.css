@@ -1,19 +1,22 @@
 /* Morning */
 .morning {
-    background: rgb(179,153,10);
+    background: rgb(255, 217, 0);
 background: linear-gradient(0deg, rgba(179,153,10,1) 10%, rgba(60,30,135,1) 100%);
+color: rgb(252, 185, 0);
 text-align: center
 }
 /* Afternoon  */
 .Afternoon {
     background: rgb(0,245,255);
 background: radial-gradient(circle, rgba(0,245,255,1) 20%, rgba(0,83,255,1) 100%);
+color: rgb(255, 230, 0);
 }
  
 /* Night */
 .Night { 
     background: rgb(45,34,102);
 background: radial-gradient(circle, rgba(45,34,102,1) 0%, rgba(11,8,29,1) 80%);
+color: rgb(168, 168, 168);
  }
 
 
@@ -54,4 +57,8 @@ background: radial-gradient(circle, rgba(45,34,102,1) 0%, rgba(11,8,29,1) 80%);
       -webkit-transform: translateY(-100px);
               transform: translateY(-100px);
     }
+  }
+
+  .words{
+    text-align: center;
   }

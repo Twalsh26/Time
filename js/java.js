@@ -4,19 +4,16 @@ hour = 12
 if(hour < 12){
     document.querySelector (".words").innerText = "Good Morning";
     document.querySelector ("#Picture").src = "img/sun-rays-png-13.png";
-    document.querySelector(".Night").classList.add("d-none");
-  document.querySelector(".Afternoon").classList.add("d-none");
+ document.getElementsByTagName("body")[0].classList.add("morning")
     
 } else if (hour < 17){
     document.querySelector (".words").innerText = "Good Afternoon";
-    document.querySelctor ("#Picture").src = "img/4-clipart-sun-1.png";
-    document.querySelector(".Night").classList.add("d-none");
-  document.querySelector(".morning").classList.add("d-none");
+    document.querySelector ("#Picture").src = "img/4-clipart-sun-1.png";
+  document.getElementsByTagName("body")[0].classList.add("Afternoon")
 } else {
-    document.querySelctor (".words").innerText = "Good Night";
-    document.querySelctor ("#Picture").src = "img/purepng.com-moonmoonastronomical-bodyfifth-largest-natural-satellitenatural-satellitemoon-light-141152706663245bda.png";
-    document.querySelector(".morning").classList.add("d-none");
-  document.querySelector(".Afternoon").classList.add("d-none");
+    document.querySelector (".words").innerText = "Good Night";
+    document.querySelector ("#Picture").src = "img/purepng.com-moonmoonastronomical-bodyfifth-largest-natural-satellitenatural-satellitemoon-light-141152706663245bda.png";
+document.getElementsByTagName("body")[0].classList.add("Night")
 }
 
 //let greetingElement = document.getElementById ("Greetings");
